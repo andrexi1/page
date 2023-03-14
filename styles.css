@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Oswald:wght@700&display=swap');
+
+body{
+	margin: 0%;
+	background-color: #040a18;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+header{
+  	height: 80px;
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+}
+
+header div:nth-child(1){
+	margin: 5px 10px 0 ;
+	width: 8%;
+}
+
+#logo{
+	justify-content: center;
+}
+
+#logo p{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: gray;
+	font-size: 60px;
+	margin: 0;
+}
+
+header img {
+	border-radius: 2%;
+	height: 100%;
+	width: 100%;
+}
+
+.items{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	color: aliceblue;
+	margin-left: 47%;
+	justify-content: space-between;
+  	align-items: last baseline;
+}
+
+.items span{
+	color: aqua;
+	margin-right: 4px;
+	margin-bottom: 0;
+}
+
+.items div{
+	border-radius: 8%;
+	border: 2px aqua solid; 
+	font-size: large;
+	padding: 5px;
+	color: aqua;
+}
+
+.items div:hover{
+	background-color: bisque;
+	color: black;
+}
+
+#content{
+	margin-top: 10%;
+	margin-left: 15%;
+	display: inline-block;
+}
+
+#hi{
+	color: aqua;
+}
+
+#titule{
+	font-size: xx-large;
+	font-weight: 1000;
+	color: rgb(86, 245, 245);
+}
+
+p span{
+	color: gray;
+	font-size: larger;
+}
+
+#more{
+	white-space: inherit;
+	color: rgb(211, 209, 209);
+	font-size: 18px
+}
+
+#word{
+	color: aqua;
+}
+
+.buttom{
+	padding: 10px 30px 5px 30px;
+	font-size: larger;
+	margin-top: 60px;
+	border: 2px aqua solid;
+	width: max-content;
+	color: aqua;
+}
+
+.buttom:hover{
+	background-color: azure;
+	color: black;
+}
+
+
+
